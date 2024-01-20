@@ -34,11 +34,16 @@
 
 // export default App
 
-import Images from "./Components/images";
+import Home from "./Components/Home";
+// import Images from "./Components/Images"
 
-const App=()=> {
+const App =()=> {
   return (
-    <Images/>
+<div>
+/* <Images/> */
+<Home/>
+</div>
+   
   )
 }
 export default App;
